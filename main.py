@@ -7,4 +7,5 @@ def generate_password(length: int = 10):
     password = "".join(random.choice(alphabet) for i in range(length))
     return password
 
+print("Here is random password:")
 print(generate_password(12))
